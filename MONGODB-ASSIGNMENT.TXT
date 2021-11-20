@@ -1,0 +1,16 @@
+MONGODB ASSIGNMENT-1 
+
+ALL THE QUERIES ARE MENTIONED BELOW:-
+
+
+
+1. db.ResData.aggregate([{$project:{_id:0,'restaurant_id':1,'name':1,"address.zipcode":1}}])
+2. db.ResData.aggregate([{$sort:{'name':1,'address':1,'cusine':1,'grades':1}}]).pretty()
+3. db.ResData.find({},{_id:0}).sort({"name":1}).limit(5).pretty()
+4. db.ResData.find({},{_id:0}).sort({"name":1}).skip(5).limit(5).pretty()
+5. db.ResData.find({"grades.score":{$gt:90}}).pretty()
+6. db.ResData.find({"grades.score":{$gt:80,$lt:100}}).pretty()
+7. db.ResData.find({'name':{$regex:/^Caf/}},{_id:0,'name':1,'cuisine':1,'address.coord':1})
+8. db.ResData.updateMany({"grades.grade":"B"},{$set:{"grades.$.grade":"A"}})
+
+

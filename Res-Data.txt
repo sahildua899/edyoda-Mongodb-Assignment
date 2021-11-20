@@ -1,0 +1,261 @@
+db.ResData.insertMany([
+      {"address":{
+	"building": "1007",
+	"coord": [ -73.856077, 40.848447 ],
+      "street":"Legina Auzoa",
+      "zipcode":"48195",
+      "city":"Vizcaya"
+    },
+    "cuisine": "European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 80},
+              {"date":new Date(),"grade": "B", "score": 70} ],
+      "name":"Azurmendi Restaurant",
+      "restaurant_id": 1
+    },
+      {"address":{
+"building": "1008",
+	"coord": [ -33.856077, 44.848447 ],
+      "street":"10 Columbus Circle",
+      "zipcode":"10019",
+      "city":"New York"
+    },
+    "cuisine": "French",
+    "grades":[{"date":new Date(),"grade": "B", "score": 90},
+              {"date":new Date(),"grade": "A", "score": 40} ],
+      "name":"Per Se Restaurant",
+      "restaurant_id": 2
+    },
+      {"address":{
+"building": "1009",
+	"coord": [ -23.856077, 48.848447 ],      
+"street":"43/F Grand Lisboa",
+      "zipcode":"30019",
+      "city":"Macau"
+    },
+    "cuisine": "European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 85},
+              {"date":new Date(),"grade": "B", "score": 86} ],
+      "name":"Robuchon Au Dome Restaurant",
+      "restaurant_id": 3
+    },
+       {"address":{
+"building": "1010",
+	"coord": [ 73.856077, -40.848447 ],      
+"street":"155 W 51st St",
+      "zipcode":"10019",
+      "city":"New York"
+    },
+    "cuisine": "French",
+    "grades":[{"date":new Date(),"grade": "A", "score": 75},
+              {"date":new Date(),"grade": "B", "score": 76} ],
+      "name":"Le Bernardin Restaurant",
+      "restaurant_id": 4
+    },
+     {"address":{
+"building": "1011",
+	"coord": [ 73.856077, -44.848447 ],      
+"street":"High St",
+      "zipcode":"50019",
+      "city":"Bray"
+    },
+    "cuisine": "French",
+    "grades":[{"date":new Date(),"grade": "B", "score": 65},
+              {"date":new Date(),"grade": "A", "score": 64} ],
+      "name":"The Fat Duck Restaurant",
+      "restaurant_id": 5
+    },
+	{"address":{
+"building": "1012",
+	"coord": [ 83.856077, 10.848447 ],
+      "street":"1723 N Halsted Street",
+      "zipcode":"60614",
+      "city":"Chicago"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "B", "score": 88},
+              {"date":new Date(),"grade": "A", "score": 74} ],
+      "name":"Alinea Restaurant",
+      "restaurant_id": 6
+    },
+	{"address":{
+"building": "1013",
+	"coord": [ 73.856077, 4.848447 ],
+      "street":"11 Madison Avenue",
+      "zipcode":"10010",
+      "city":"New York"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "A", "score": 98},
+              {"date":new Date(),"grade": "B", "score": 94} ],
+      "name":"Eleven Madison Park",
+      "restaurant_id": 7
+    },
+	{"address":{
+"building": "1014",
+	"coord": [ -3.856077, -10.848447 ],
+      "street":"Via Stella, 22",
+      "zipcode":"41121",
+      "city":"Modena"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "B", "score": 99},
+              {"date":new Date(),"grade": "B", "score": 96} ],
+      "name":"Osteria Francescana Restaurant",
+      "restaurant_id": 8
+    },
+	{"address":{
+"building": "1015",
+	"coord": [ -3.856077, 4.848447 ],
+      "street":"33 Scotts Road",
+      "zipcode":"228226",
+      "city":"Singapore"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "A", "score": 88},
+              {"date":new Date(),"grade": "B", "score": 84} ],
+      "name":"The Song Of India",
+      "restaurant_id": 9
+    },
+	{"address":{
+"building": "1016",
+	"coord": [ -3.856077, 88.848447 ],
+      "street":"900 Meadowood Ln",
+      "zipcode":"94574",
+      "city":"California"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "A", "score": 9},
+              {"date":new Date(),"grade": "B", "score": 54} ],
+      "name":"The Restaurant At Meadowood",
+      "restaurant_id": 10
+    },
+	{"address":{
+"building": "1017",
+	"coord": [ -7.856077, 40.848447 ],
+      "street":"Blumenrain 8",
+      "zipcode":"4001",
+      "city":"Basel"
+    },
+    "cuisine": "Central European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 78},
+              {"date":new Date(),"grade": "A", "score": 94} ],
+      "name":"Cheval Blanc",
+      "restaurant_id": 11
+    },
+	{"address":{
+"building": "1018",
+	"coord": [ -5.856077, 9.848447 ],
+      "street":"31 Avenue George V",
+      "zipcode":"75008",
+      "city":"Paris"
+    },
+    "cuisine": "French",
+    "grades":[{"date":new Date(),"grade": "B", "score": 98},
+              {"date":new Date(),"grade": "A", "score": 100} ],
+      "name":"Le Cinq",
+      "restaurant_id": 12
+    },
+	{"address":{
+"building": "1019",
+	"coord": [ 3.856077, -40.848447 ],
+      "street":"1719 34th St.",
+      "zipcode":"95801",
+      "city":"Sacramento"
+    },
+    "cuisine": "American",
+    "grades":[{"date":new Date(),"grade": "A", "score": 99},
+              {"date":new Date(),"grade": "B", "score": 99} ],
+      "name":"Canon",
+      "restaurant_id": 13
+    },
+      {"address":{
+"building": "1020",
+	"coord": [ 3.856077,- 4.848447 ],      
+"street":"350 Mission St.",
+      "zipcode":"94101",
+      "city":"San Francisco"
+    },
+    "cuisine": "Hawaiian",
+    "grades":[{"date":new Date(),"grade": "B", "score": 88},
+              {"date":new Date(),"grade": "A", "score": 99} ],
+      "name":"Trailblazer Tavern",
+      "restaurant_id": 14
+    },
+	{"address":{
+"building": "1021",
+	"coord": [ -73.811077, 40.886447 ],
+      "street":"6518 Washington St.",
+      "zipcode":"94599",
+      "city":"Yountville"
+    },
+    "cuisine": "International",
+    "grades":[{"date":new Date(),"grade": "A", "score": 99},
+              {"date":new Date(),"grade": "B", "score": 98} ],
+      "name":"La Calenda",
+      "restaurant_id": 15
+    },
+	{"address":{
+"building": "1022",
+	"coord": [ -73.85418577, 40.85418547 ],
+      "street":"220 Western Ave.",
+      "zipcode":"94952",
+      "city":"Petaluma"
+    },
+    "cuisine": "European",
+    "grades":[{"date":new Date(),"grade": "A", "score": 100},
+              {"date":new Date(),"grade": "B", "score": 100} ],
+      "name":"Stockhome",
+      "restaurant_id": 16
+    },
+     {"address":{
+"building": "1023",
+	"coord": [ -54.856077, 54.848447 ],      
+"street":"5WW8+HRJ",
+      "zipcode":"482002",
+      "city":"Jabalpur"
+    },
+    "cuisine": "Indian",
+    "grades":[{"date":new Date(),"grade": "B", "score": 99},
+              {"date":new Date(),"grade": "A", "score": 99} ],
+      "name":"Cafeteria ISBT Chaupati",
+      "restaurant_id": 17
+    },
+	{"address":{
+"building": "1024",
+	"coord": [ -98.856077, 15.848447 ],
+      "street":"30 Avenue Aristide Briand",
+      "zipcode":"06500",
+      "city":"Menton"
+    },
+    "cuisine": "spainish",
+    "grades":[{"date":new Date(),"grade": "A", "score": 98},
+              {"date":new Date(),"grade": "B", "score": 99} ],
+      "name":"Cafeteria Mirazur",
+      "restaurant_id": 18
+    },
+     {"address":{
+"building": "1025",
+	"coord": [ -73.84545477, 40.845454567 ],      
+"street":"Building 3, 16th Floor",
+      "zipcode":"121099",
+      "city":"Smolenskaya Square"
+    },
+    "cuisine": "russaian",
+    "grades":[{"date":new Date(),"grade": "A", "score": 88},
+              {"date":new Date(),"grade": "B", "score": 94} ],
+      "name":"Cafeteria White Rabbit",
+      "restaurant_id": 19
+    },
+       {"address":{
+"building": "1026",
+	"coord": [ -73.4456077, 40.8117447 ],      
+"street":"Plaza de San Juan 1",
+      "zipcode":"48291",
+      "city":"Atxondo"
+    },
+    "cuisine": "spanish",
+    "grades":[{"date":new Date(),"grade": "A", "score": 88},
+              {"date":new Date(),"grade": "B", "score": 84} ],
+      "name":"Asador Etxebarri",
+      "restaurant_id": 20
+    }]);
